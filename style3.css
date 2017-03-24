@@ -1,0 +1,103 @@
+
+/*Name: Adhrika Udaylal Pai
+Student no: 991451940
+Assignment - 2
+Web Development*/
+
+/****************************** FOR MOBILE PHONES: ****************************/
+
+@media screen and (max-width:500px){
+
+    html{
+      width: 300px;
+      height: 700px;
+    }
+
+    body{
+      border: none;
+      padding: 50px;
+      text-shadow: 2px 2px 4px grey;
+
+    }
+
+    h1,h2{
+      text-align: center;
+      font-size: 1em;
+    }
+
+/**********************************HEADER**************************************/
+
+    .header{
+      background-color: #00CED1;
+      color: white;
+      width: 500px;
+      margin-left:-40px;
+    }
+    .description{
+      text-align: center;
+      width: 300px;
+      height:100px;
+      margin-left: 60px;
+
+    }
+
+/***********************************LINKS**************************************/
+
+    #column3{
+      margin-left: 125px;
+    }
+    .col-3 menu{
+      width: 25px;
+      margin-left: 50px;
+
+    }
+    .menu li:hover{
+      background-color:#E0FFFF;
+    }
+    .menu ul li a{
+      color: blue;
+      text-decoration: none;
+    }
+
+/*****************************INGREDIENTS**************************************/
+
+    .main{
+          width:500px;
+          height:100px;
+          display: auto;
+          margin-left: -50px;
+          padding-left: 4px;
+          padding-right: 55px;
+          border: 1px solid grey;
+
+    }
+    .ingredients{
+      display: none;
+    }
+
+    .expand{
+      display: inline;
+      text-align: center;
+
+    }
+/*********************************PREPARATION**********************************/
+
+    .preparation{
+      display: none;
+    }
+
+    .aside{
+      width:500px;
+      height:100px;
+      display: auto;
+      margin-left: -50px;
+    }
+
+
+/***********************************IMAGE**************************************/
+
+    #image{
+      display: none;
+    }
+
+}
